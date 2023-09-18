@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0d1063cf1c.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Sweet Shop</title>
+
+</head>
+
+<body>
+    <!-- header -->
+    <div class="mainHeader">
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                    <a href="/"> <img src="./img/logo.png" alt="logo"></a>
+                </div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Promo</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="search">
+                    <a href="#"><img src="./img/search.png" alt="search"></a>
+                </div>
+            </div>
+
+            <div class="mobile_header">
+                <div class="bars">
+                    <a href="javascript:void(0);" id="mobilebars"><i class="fa-solid fa-bars"></i></a>
+                    <div class="logo">
+                        <a href="/"> <img src="./img/logo.png" alt="logo"></a>
+                    </div>
+                    <div class="search">
+                        <a href="#"><img src="./img/search.png" alt="search"></a>
+                    </div>
+                </div>
+                <ul id="mobilenav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Promo</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- slider -->
+    <div class="main-slider">
+        <div class="slider-img">
+            <img src="./img/slider.png" alt="">
+        </div>
+        <div class="slider">
+            <div class="container">
+                <div class="slider-description">
+                    <h2>Title Here</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum
+                        vestibulum. </p>
+                    <a href="#">order now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- POPULARMENU -->
+    <div class="popular-menu-main">
+        <div class="container">
+            <div class="popular-menu">
+                <h4>Popular Menu</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+
+
+                <!-- cards -->
+                <div class="cards">
+                    <div class="card">
+                        <img src="./img/card-1.png" alt="Card One">
+                        <h5>Title Here</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./img/card-2.png" alt="Card Two">
+                        <h5>Title Here</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./img/card-3.png" alt="Card Three">
+                        <h5>Title Here</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="main-footer">
+        <div class="container">
+            <footer>
+                <div class="footer-left">
+                    <h6>Title Here </h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at dignissim nunc, id
+                        maximus ex. Etiam nec dignissim
+                        elit, at dignissim enim..</p>
+                    <div class="social-icons">
+                        <img src="./img/instagram.png" alt="instagram">
+                        <img src="./img/facebook.png" alt="facebook">
+                        <img src="./img/twitter.png" alt="twitter">
+                        <img src="./img/whatsapp.png" alt="whatsapp">
+                    </div>
+                </div>
+                <!-- footer-right -->
+                <div class="footer-right">
+                    <div class="section">
+                        <h5> About </h5>
+                        <ul>
+                            <li><a href="#">History</a></li>
+                            <li><a href="# ">Our Team</a></li>
+                            <li><a href="#">Brand Guidelines</a></li>
+                            <li><a href="#">Terms & Condition</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="section">
+                        <h5> Services</h5>
+                        <ul>
+                            <li><a href="#">How to Order</a></li>
+                            <li><a href="#">Our Product</a></li>
+                            <li><a href="#">Order Status</a></li>
+                            <li><a href="#">Promo</a></li>
+                            <li><a href="#">Payment Method</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="section">
+                        <h5> Other</h5>
+                        <ul>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Help</a></li>
+                            <li><a href="#">Privacy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+
+    <script>
+        $(document).ready(function () {
+            $("#mobilebars").click(function () {
+                $("#mobilenav").slideToggle("slow");
+            });
+        });
+    </script>
+</body>
+
+</html>
